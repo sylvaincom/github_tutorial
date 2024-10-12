@@ -1,0 +1,15 @@
+First name; Last name (initial)
+
+Antoine; D
+Bérangère; E
+Fayàl; B
+Jean-Charles; M
+Joseph-Alexandre; A
+Laurent; P
+Mathilde; B
+Michel; DM
+Mikael; EP
+Paul; B
+Pierre-Antoine; N
+Said; G
+Vincent; M
