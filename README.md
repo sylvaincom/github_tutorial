@@ -46,11 +46,11 @@
 
 ## Doing an advanced PR with GitHub Actions (by using GitHub Desktop)
 
-- From GitHub Desktop, create a branch called `student_name_assignment` (for example `paul_assignment`). Switch to this branch. Open in VS Code.
+- From GitHub Desktop, create a branch called `student_name_assignment` (for example `paul_assignment`). Switch to this branch. Open in VS Code. Publish this branch (but do not create a pull request yet).
 - From VS Code, open `numpy_question.py`.
   - Read the instructions at the beginning of `numpy_question.py`.
   - Modify `numpy_question.py` according to the instructions.
-  - Do *not* modify `test_numpy_question` (more generally, do *not* modify Python files that start with `test_`).
+  - Do *not* modify `test_numpy_question.py`. More generally, do *not* modify Python files that start with `test_`: as their name suggests, they perform the tests (checks) on your submitted code.
 - Create a pull request.
 - See if all tests have passed. If not, keep pushing to your branch (the same one) until the continuous integration (CI) system is green. Do *not* open a new pull request every time you push.
 - When `All tests have passed` (green), you are done. (The teacher will *not* merge your PR, or all students would have your correct answer.)
