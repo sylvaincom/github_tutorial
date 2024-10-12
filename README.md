@@ -34,9 +34,10 @@
   - Click on `Push origin`.
   - Click on `Preview Pull Request`.
   - Click on `Create pull request`. This will automatically open a web navigator. You can see that you are in `sylvaincom/github_lab` so you are trying to apply changes on the original GitHub repository, and not only yours.
-- On the automatically opened web navigator, click on `Create pull request`.
-- Now, the owner of the GitHub repository (here, your teacher Sylvain) will have to accept your pull request by clicking on it then clicking on `Merge pull request` then `Confirm merge`. (Do not hesitate to let your teacher know that you created a PR so that he can manually merge it.)
-- Once your pull request has been merged: you will see `Pull request succesfully merged and close`. Click on `Delete branch`.
-  - You can also delete a branch from GitHub Desktop. Right click on your branch `student_name`, then click on `Delete`, then confirm with `Delete`. (Indeed, you no longer need this branch.)
-- (On GitHub Desktop, switch to the `main` branch then click on `Fetch origin`.)
-- You can check that your modifications have been applied by looking at the GitHub repository on the web navigator and clicking on `students.txt`!
+- On the automatically opened web navigator:
+  - Click on `Create pull request`.
+  - Now, the owner of the GitHub repository (here, your teacher Sylvain) will have to accept your pull request by clicking on it then clicking on `Merge pull request` then `Confirm merge`. (Do not hesitate to let your teacher know that you created a PR so that he can manually merge it.)
+  - Once your pull request has been merged: you will see `Pull request succesfully merged and close`. Click on `Delete branch`. Indeed, you no longer need this branch.
+    - (You can also delete a branch from GitHub Desktop. Right click on your branch `student_name`, then click on `Delete`, then confirm with `Delete`.)
+  - (On GitHub Desktop, switch to the `main` branch, then click on `Fetch origin`.)
+  - You can check that your modifications have been applied by looking at the GitHub repository on the web navigator, on the `main` branch, and clicking on `students.txt`, thus at https://github.com/sylvaincom/github_lab/blob/main/students.txt.
