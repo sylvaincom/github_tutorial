@@ -62,7 +62,7 @@ By using GitHub Desktop, you did not see all the `git` commands that you would h
 Basically, imagine that there is a specific `git` command for all the clicks you do on GitHub Desktop (so it is quite difficult to teach them in a short lecture).
 
 It is recommended to learn `git` from the command line on your own. Here are some resources:
-- [Mathurin Massias' lecture notes](https://github.com/mathurinm/github-assignment?tab=readme-ov-file#general-information). Also see [Mathurin Massias' lab](https://github.com/mathurinm/github-assignment?tab=readme-ov-file#i-the-assignment) which is the equivalent of this lab you did using GitHub Desktop but with `git` commands. Notice how more complicated it looks like...
+- [Mathurin Massias' lecture notes](https://github.com/mathurinm/github-assignment?tab=readme-ov-file#general-information). Also see [Mathurin Massias' lab](https://github.com/mathurinm/github-assignment?tab=readme-ov-file#i-the-assignment) which is the equivalent of this lab you did using GitHub Desktop but with `git` commands. Notice how more complicated it looks...
 - [Lino Galiana's lecture](https://pythonds.linogaliana.fr/content/git/) (in French)
 - [Software Carpentry's lecture](https://swcarpentry.github.io/git-novice/)
 - [Git documentation](documentation)
