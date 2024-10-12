@@ -18,7 +18,7 @@
   - From the web navigator, click on `Code` then `Open with GitHub Desktop`. This will automatically open GitHub Desktop.
   - On GitHub Desktop, click on `Clone`. This will automatically open the GitHub repository which corresponds to your fork.
   - When asked _How are you planning to use this fork?_, select _To contribute to the parent project_.
-- Create a branch called `student_name` and switch to this branch (it should be done by default, see `Current branch`).
+- Create a branch called `student_name` (for example `paul_b`) and switch to this branch (it should be done by default, see `Current branch`).
 - Click on `Publish branch`.
 
 #### Do your modifications:
@@ -46,7 +46,7 @@
 
 ## Doing an advanced PR with GitHub Actions (by using GitHub Desktop)
 
-- From GitHub Desktop, create a branch called `student_name_assignment` (for example `paul_assignment`). Switch to this branch. Open in VS Code. Publish this branch (but do not create a pull request yet).
+- From GitHub Desktop, create a branch called `student_name_assignment` (for example `paul_b_assignment`). Switch to this branch. Open in VS Code. Publish this branch (but do not create a pull request yet).
 - From VS Code, open `numpy_question.py`.
   - Read the instructions at the beginning of `numpy_question.py`.
   - Modify `numpy_question.py` according to the instructions.
@@ -55,7 +55,14 @@
 - See if all tests have passed. If not, keep pushing to your branch (the same one) until the continuous integration (CI) system is green. Do *not* open a new pull request every time you push.
 - When `All tests have passed` (green), you are done. (The teacher will *not* merge your PR, or all students would have your correct answer.)
 
-## `git`
+## Some key take-aways
+
+- always know where you are
+  - with virtual environment
+  - which directory
+  - in which branch you are
+
+## About `git`
 
 By using GitHub Desktop, you did not see all the `git` commands that you would have to be run from your shell.
 
