@@ -61,4 +61,7 @@ pip install -r requirements.txt
 
 From GitHub Desktop, create a branch called `student_name_assignment`. Switch to this branch.
 
-Open in VS Code. Select the `github_lab` virtual environment. Modify `numpy_questions.py`. Do *not* modify `test_numpy_questions`.
+Open in VS Code.
+Select the `github_lab` virtual environment.
+
+Modify `numpy_question.py`. Do *not* modify `test_numpy_question`.

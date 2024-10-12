@@ -7,7 +7,7 @@ import numpy as np
 
 import pytest
 
-from numpy_questions import wallis_product, max_index
+from numpy_question import wallis_product, max_index
 
 
 def test_max_index():
