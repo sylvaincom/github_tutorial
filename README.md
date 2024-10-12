@@ -1,4 +1,4 @@
-# GitHub lab: Working with git and GitHub
+# GitHub lab: Working with GitHub Desktop
 
 > Forked from https://github.com/mathurinm/github-assignment, a project started by Mathurin Massias, Thomas Moreau, and Alexandre Gramfort.
 
@@ -41,3 +41,20 @@
     - (You can also delete a branch from GitHub Desktop. Right click on your branch `student_name`, then click on `Delete`, then confirm with `Delete`.)
   - (On GitHub Desktop, switch to the `main` branch, then click on `Fetch origin`.)
   - You can check that your modifications have been applied by looking at the GitHub repository on the web navigator, on the `main` branch, and clicking on `students.txt`, thus at https://github.com/sylvaincom/github_lab/blob/main/students.txt.
+
+## Advanced PR
+
+In VS code, click on `Terminal` then `New Terminal`: this will open a Terminal inside VS Code. Run:
+```sh
+pwd
+```
+which should return a path that ends with `Documents/GitHub/github_lab`. Hence, you made sure that you are in the correct directory.
+
+Then, create a virtual environment called `github_lab` adn install the required packages in it:
+```sh
+conda create -n github_lab python=3.12
+conda activate github_lab
+pip install -r requirements.txt
+```
+
+From GitHub Desktop, create a branch called `student_name_assignment`. Switch to this branch. Open in VS Code. Select the `github_lab` virtual environment.
