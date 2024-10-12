@@ -38,12 +38,10 @@ def max_index(X):
         If the input is not a numpy array or
         if the shape is not 2D.
     """
-    i = 0
-    j = 0
 
-    # TODO
+    max_index = np.unravel_index(np.argmax(X, axis=None), X.shape)
 
-    return i, j
+    return max_index
 
 
 def wallis_product(n_terms):
