@@ -15,13 +15,13 @@
 #### Fork and clone this GitHub repository:
 - From this GitHub repository (on the web navigator), fork the repository by clicking on the `Fork` button on the upper right corner, then `Create a new fork`.
 - Clone the repository of your fork: click on `Code` then `Open with GitHub Desktop`,
-  - When asked _How are you planning to use this Fork_, select _To contribute to the parent project_
+  - When asked _How are you planning to use this Fork_, select _To contribute to the parent project_.
 - Create a branch called `student_name` and switch to this branch (it should be done by default, see `Current branch`).
 - Click on `Publish branch`.
 
 #### Do your modifications:
 - Click on `Open in Visual Studio Code` to open the code in this GitHub repository on this branch of your forked repository on VS Code. (Note that Visual Studio Code must be select as your *external editor* on GitHub Desktop.)
-  - (Check that you are the correct branch.)
+  - In VS Code, on the bottom left, check that you are the correct branch `student_name` (it should be done by default).
   - Select the file `students.txt`.
   - Modify this file by adding an `X` at the end of the row with your name. Do not forget to save the file after your modification!
 
