@@ -58,8 +58,9 @@
 ## Some key take-aways
 
 - always know where you are
-  - with virtual environment
+  - which virtual environment
   - which directory
+  - which GitHuub repository (the original repo or your fork)
   - in which branch you are
 
 ## About `git`
