@@ -46,22 +46,9 @@
 
 ## Advanced PR
 
-In VS code, click on `Terminal` then `New Terminal`: this will open a Terminal inside VS Code. Run:
-```sh
-pwd
-```
-which should return a path that ends with `Documents/GitHub/github_lab`. Hence, you made sure that you are in the correct directory.
+- From GitHub Desktop, create a branch called `student_name_assignment` (for example `paul_assignment`). Switch to this branch. Open in VS Code.
+- From VS Code, modify `numpy_question.py`. Do *not* modify `test_numpy_question`.
 
-Then, create a virtual environment called `github_lab` and install the required packages in it:
-```sh
-conda create -n github_lab python=3.12
-conda activate github_lab
-pip install -r requirements.txt
-```
+`All check have failed`
 
-From GitHub Desktop, create a branch called `student_name_assignment`. Switch to this branch.
-
-Open in VS Code.
-Select the `github_lab` virtual environment.
-
-Modify `numpy_question.py`. Do *not* modify `test_numpy_question`.
+`All checks have passed`
