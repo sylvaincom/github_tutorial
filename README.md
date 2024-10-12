@@ -22,7 +22,7 @@
 - Click on `Publish branch`.
 
 #### Do your modifications:
-- Click on `Open in Visual Studio Code` to open the code in this GitHub repository on this branch of your forked repository on VS Code. (Note that Visual Studio Code must be select as your *external editor* on GitHub Desktop.)
+- Click on `Open in Visual Studio Code` to open the code in this GitHub repository on this branch of your forked repository on VS Code. (Note that Visual Studio Code must be selected as your *external editor* on GitHub Desktop.)
   - In VS Code, on the bottom left, check that you are the correct branch `student_name` (it should be done by default).
   - Select the file `students.txt`.
   - Modify this file by adding a ` -> done` at the end of the row with your name. Do not forget to save the file after your modification!
