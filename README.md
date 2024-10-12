@@ -44,11 +44,13 @@
   - (On GitHub Desktop, switch to the `main` branch, then click on `Fetch origin`.)
   - You can check that your modifications have been applied by looking at the GitHub repository on the web navigator, on the `main` branch, and clicking on `students.txt`, thus at https://github.com/sylvaincom/github_lab/blob/main/students.txt.
 
-## Advanced PR
+## Doing an advanced pull request (PR) with GitHub Actions (and GitHub Desktop)
 
 - From GitHub Desktop, create a branch called `student_name_assignment` (for example `paul_assignment`). Switch to this branch. Open in VS Code.
-- From VS Code, modify `numpy_question.py`. Do *not* modify `test_numpy_question`.
-
-`All check have failed`
-
-`All checks have passed`
+- From VS Code, open `numpy_question.py`.
+  - Read the instructions at the beginning of `numpy_question.py`.
+  - Modify `numpy_question.py` according to the instructions.
+  - Do *not* modify `test_numpy_question` (more generally, do *not* modify Python files that start with `test_`).
+- Create a pull request.
+- See if all tests have passed. If not, keep pushing to your branch (the same one) until the continuous integration (CI) system is green. Do *not* open a new pull request every time you push.
+- When `All tests have passed` (green), you are done. (The teacher will *not* merge your PR, or all students would have your correct answer.)
