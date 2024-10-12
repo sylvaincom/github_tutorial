@@ -17,19 +17,19 @@
 - Clone the repository of your fork: click on `Code` then `Open with GitHub Desktop`,
   - When asked _How are you planning to use this Fork_, select _To contribute to the parent project_
 - Create a branch called `student_name` and switch to this branch (it should be done by default, see `Current branch`).
-- Click on publish your branch.
+- Click on `Publish branch`.
 
 #### Do your modifications:
-- Click on `Open in Visual Studio Code` to open the code on this branch of your forked repository on VS Code.
+- Click on `Open in Visual Studio Code` to open the code in this GitHub repository on this branch of your forked repository on VS Code. (Note that Visual Studio Code must be select as your *external editor* on GitHub Desktop.)
   - (Check that you are the correct branch.)
   - Select the file `students.txt`.
   - Modify this file by adding an `X` at the end of the row with your name. Do not forget to save the file after your modification!
 
 #### Publish your modifications and send a pull request (PR):
 - Go back to GitHub Desktop.
-  - Select the changed file called `students.txt`.
-  - Add a commit message, by default it is `Update students.txt` which is fine. This is for documentation purposes.
-  - Click on `Commit to student_name` to commit tour changes to our branch.
+  - Select the changed file called `students.txt` (it should be done by default).
+  - Add a commit message (by default it should be `Update students.txt`, which is fine). Note that the commit message is for documentation purposes.
+  - Click on `Commit to student_name` to commit your changes on your branch.
   - Click on `Pull origin`. If GitHub says that there is a conflict (because you modified lines that were modified by another student at the same time), solve them.
   - Click on `Push origin`.
   - Click on `Preview Pull Request`.
