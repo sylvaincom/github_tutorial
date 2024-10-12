@@ -14,8 +14,10 @@
 
 #### Fork and clone this GitHub repository:
 - From this GitHub repository (on the web navigator), fork the repository by clicking on the `Fork` button on the upper right corner, then `Create a new fork`.
-- Clone the repository of your fork: click on `Code` then `Open with GitHub Desktop`,
-  - When asked _How are you planning to use this Fork_, select _To contribute to the parent project_.
+- Clone the repository (of your fork):
+  - From the web navigator, click on `Code` then `Open with GitHub Desktop`. This will automatically open GitHub Desktop.
+  - On GitHub Desktop, click on `Clone`. This will automatically open the GitHub repository which corresponds to your fork.
+  - When asked _How are you planning to use this fork?_, select _To contribute to the parent project_.
 - Create a branch called `student_name` and switch to this branch (it should be done by default, see `Current branch`).
 - Click on `Publish branch`.
 
@@ -50,11 +52,13 @@ pwd
 ```
 which should return a path that ends with `Documents/GitHub/github_lab`. Hence, you made sure that you are in the correct directory.
 
-Then, create a virtual environment called `github_lab` adn install the required packages in it:
+Then, create a virtual environment called `github_lab` and install the required packages in it:
 ```sh
 conda create -n github_lab python=3.12
 conda activate github_lab
 pip install -r requirements.txt
 ```
 
-From GitHub Desktop, create a branch called `student_name_assignment`. Switch to this branch. Open in VS Code. Select the `github_lab` virtual environment.
+From GitHub Desktop, create a branch called `student_name_assignment`. Switch to this branch.
+
+Open in VS Code. Select the `github_lab` virtual environment. Modify `numpy_questions.py`. Do *not* modify `test_numpy_questions`.
