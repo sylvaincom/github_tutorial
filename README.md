@@ -32,7 +32,7 @@
 - Go back to GitHub Desktop.
   - Select the changed file called `students.txt` (it should be done for you by default).
   - Add a commit message (by default it should be `Update students.txt`, which is fine). 💡 A commit message is for documentation purposes.
-  - Click on `Commit to student_name` to commit your changes on your branch.
+  - Click on `Commit to <student_branch>` to commit your changes on your branch.
   - Click on `Pull origin`.
     - 💡 If GitHub says that there is a conflict (because you modified lines that were modified by another student at the same time), solve them.
   - Click on `Push origin`.
