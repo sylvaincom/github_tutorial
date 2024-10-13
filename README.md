@@ -78,7 +78,7 @@
   - which GitHub repository (the original one or your fork)
   - in which branch you are
 
-## 🤖 About `git`
+## 📚 About `git`
 
 By using GitHub Desktop, you did not see all the `git` commands that you would have to be run from your shell.
 
