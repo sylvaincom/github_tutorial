@@ -86,7 +86,7 @@ Basically, imagine that there is a specific `git` command for all the clicks you
 
 It is recommended to learn `git` from the command line on your own. Here are some resources:
 - [Mathurin Massias' lecture notes](https://github.com/mathurinm/github-assignment?tab=readme-ov-file#general-information). Also see [Mathurin Massias' lab](https://github.com/mathurinm/github-assignment?tab=readme-ov-file#i-the-assignment) which is the equivalent of this lab you did using GitHub Desktop but with `git` commands. Notice how more complicated it looks...
-- [Lino Galiana's lecture](https://pythonds.linogaliana.fr/content/git/) (in French)
+- [Lino Galiana's lecture](https://pythonds.linogaliana.fr/content/git/): you can switch to English or French
 - [Software Carpentry's lecture](https://swcarpentry.github.io/git-novice/)
 - [Git documentation](documentation)
 - http://try.github.io
