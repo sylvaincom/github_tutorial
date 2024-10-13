@@ -1,8 +1,8 @@
-# GitHub lab: A basic introduction to GitHub and GitHub actions by using GitHub Desktop
+# A basic introduction to GitHub and GitHub actions by using GitHub Desktop
 
 > Forked from https://github.com/mathurinm/github-assignment, a project started by Mathurin Massias, Thomas Moreau, and Alexandre Gramfort.
 
-## Prerequisite
+## Prerequisites
 
 - Download [Visual Studio Code](https://code.visualstudio.com/download).
 - Set up your GitHub account.
@@ -25,17 +25,20 @@
 - Click on `Open in Visual Studio Code` to open the code, corresponding to this branch of your forked repository, on VS Code. (Note that Visual Studio Code must be selected as your *external editor* on GitHub Desktop.)
   - On VS Code, on the bottom left, check that you are in the correct branch called `student_branch` (it should be done for you by default).
   - Select the `students.txt` file.
-  - Modify this file by adding a ` -> done` at the end of the row with your name. Do not forget to save the file after your modification!
+  - Modify this file by adding a ` -> done` at the end of the row with your name. ⚠️ Do not forget to save the file after your modification!
 
 #### Publish your modifications and send a pull request (PR):
 - Go back to GitHub Desktop.
   - Select the changed file called `students.txt` (it should be done for you by default).
-  - Add a commit message (by default it should be `Update students.txt`, which is fine). Note that the commit message is for documentation purposes.
+  - Add a commit message (by default it should be `Update students.txt`, which is fine).
+    - 💡 A commit message is for documentation purposes.
   - Click on `Commit to student_name` to commit your changes on your branch.
-  - Click on `Pull origin`. If GitHub says that there is a conflict (because you modified lines that were modified by another student at the same time), solve them.
+  - Click on `Pull origin`.
+    - 💡 If GitHub says that there is a conflict (because you modified lines that were modified by another student at the same time), solve them.
   - Click on `Push origin`.
   - Click on `Preview Pull Request`.
-  - Click on `Create pull request`. This will automatically open a web navigator. You can see that you are in `sylvaincom/github_lab` so you are trying to apply changes on the original GitHub repository, and not only yours.
+  - Click on `Create pull request`. This will automatically open a web navigator.
+    - 💡 You can see that you are in `sylvaincom/github_lab` so you are trying to apply changes on the original GitHub repository, and not only yours.
 - On the automatically opened web navigator:
   - Click on `Create pull request`.
   - Now, the owner of the GitHub repository (here, your teacher with the `sylvaincom` GitHub handle) will have to accept your pull request.
