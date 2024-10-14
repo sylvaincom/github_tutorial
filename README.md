@@ -37,7 +37,7 @@
     - 💡 If GitHub says that there is a conflict (because you modified lines that were modified by another student at the same time), solve them.
   - Click on `Push origin`.
   - Click on `Preview Pull Request`.
-  - Click on `Create pull request`. This will automatically open a web navigator. 💡 You can see that you are in `sylvaincom/github_lab` so you are trying to apply changes on the original GitHub repository, and not only yours.
+  - Click on `Create pull request`. This will automatically open a web navigator. 💡 You can see that you are in `sylvaincom/github_tutorial` so you are trying to apply changes on the original GitHub repository, and not only yours.
 - On the automatically opened web navigator:
   - Click on `Create pull request`.
   - Now, the owner of the GitHub repository (here, your teacher with the `sylvaincom` GitHub handle) will have to approve your pull request.
@@ -50,7 +50,7 @@
     - 💡 After your PR has been merged, you can also delete your fork, but do *not* delete your fork yet as we will use it in the second part of this lab.
     - 💡 You can also delete a branch from GitHub Desktop. Right click on your branch `<student_branch>`, then click on `Delete`, then confirm with `Delete`. Same for your fork.
   - (On GitHub Desktop, once you are in the `main` branch, click on `Fetch origin`.)
-  - You can check that your modifications have been applied by looking at the original GitHub repository on the web navigator, on the `main` branch, and clicking on `students.txt`, thus at https://github.com/sylvaincom/github_lab/blob/main/students.txt.
+  - You can check that your modifications have been applied by looking at the original GitHub repository on the web navigator, on the `main` branch, and clicking on `students.txt`, thus at https://github.com/sylvaincom/github_tutorial/blob/main/students.txt.
 
 ## 🚀 Doing an advanced PR with GitHub Actions (by using GitHub Desktop)
 
