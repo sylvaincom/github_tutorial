@@ -18,7 +18,7 @@
   - From the web navigator, click on `Code` then `Open with GitHub Desktop`. This will automatically open GitHub Desktop.
   - Once on GitHub Desktop, click on `Clone`. This will clone the GitHub repository which corresponds to your fork.
   - When asked _How are you planning to use this fork?_, select _To contribute to the parent project_.
-- Create a branch called `<student_branch>` (for example called it `paul_b` if your firstname and last name initial are "Paul B.") and switch to this branch (it should be done for you by default, check `Current branch`).
+- Create a branch called `<student_branch>` (for example called it `john_d` if your name is "John Doe") and switch to this branch (it should be done for you by default, check `Current branch`).
 - Click on `Publish branch`.
 
 #### Do your modifications:
@@ -55,7 +55,7 @@
 ## 🚀 Doing an advanced PR with GitHub Actions (by using GitHub Desktop)
 
 - On GitHub Desktop:
-  - Create a branch called `<student_assignment_branch>` (for example call it `paul_b_assignment` if your name is "Paul B."). Switch to this branch.
+  - Create a branch called `<student_assignment_branch>` (for example call it `john_d_assignment` if your name is John Doe). Switch to this branch.
   - Open in VS Code.
   - Publish this branch (but do *not* create a pull request yet).
 - On VS Code:
