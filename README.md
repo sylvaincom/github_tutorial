@@ -68,6 +68,7 @@
   - Modify `numpy_question.py` according to the instructions.
   - ⚠️ Do *not* modify `test_numpy_question.py`. 💡 More generally, do *not* modify Python files that start with `test_`: as their name suggests, they perform the tests (checks) on your submitted code.
 - Create a pull request.
+  - 💡 Instead of creating a (normal) PR, you can create a draft PR and convert it to ready for review only once you have finished your changes.
 - See if all tests have passed (✅).
   - If not, if a check has failed (❌), keep pushing to your branch (*the same one*) until the continuous integration (CI) system is green (✅).
   - ⚠️ Do *not* open a new pull request every time you push.
