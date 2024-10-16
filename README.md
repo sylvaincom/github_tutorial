@@ -95,3 +95,6 @@ It is recommended to learn `git` from the command line on your own. Here are som
 - [Software Carpentry's lecture](https://swcarpentry.github.io/git-novice/)
 - [Git documentation](documentation)
 - http://try.github.io
+
+More on GitHub Desktop:
+- [GitHub Desktop documentation](https://docs.github.com/en/desktop)
