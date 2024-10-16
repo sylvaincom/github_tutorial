@@ -54,7 +54,7 @@
 
 ### 💡 Some notes
 
-- When on your branch and working on your PR, from GitHub Desktop, it might be useful to click on the top menu on `Branch` then `Update from main`.
+- When on your branch and working on your PR, from GitHub Desktop, it might be useful to click on the top menu on `Branch` then `Update from main`. For the web navigator, from your GitHub PR, you will then see `Merge branch 'main' into <student_branch>`.
 
 ## 🚀 Doing an advanced PR with GitHub Actions (by using GitHub Desktop)
 
