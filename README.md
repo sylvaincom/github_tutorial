@@ -52,6 +52,10 @@
   - (On GitHub Desktop, once you are in the `main` branch, click on `Fetch origin`.)
   - You can check that your modifications have been applied by looking at the original GitHub repository on the web navigator, on the `main` branch, and clicking on `students.txt`, thus at https://github.com/sylvaincom/github_tutorial/blob/main/students.txt.
 
+### 💡 Some notes
+
+- When on your branch and working on your PR, from GitHub Desktop, it might be useful to click on the top menu on `Branch` then `Update from main`.
+
 ## 🚀 Doing an advanced PR with GitHub Actions (by using GitHub Desktop)
 
 - On GitHub Desktop:
