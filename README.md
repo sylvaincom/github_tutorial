@@ -49,12 +49,11 @@
       - On GitHub Desktop, switch to the `main` branch.
     - 💡 After your PR has been merged, you can also delete your fork, but do *not* delete your fork yet as we will use it in the second part of this lab.
     - 💡 You can also delete a branch from GitHub Desktop. Right click on your branch `<student_branch>`, then click on `Delete`, then confirm with `Delete`. Same for your fork.
-  - (On GitHub Desktop, once you are in the `main` branch, click on `Fetch origin`.)
   - You can check that your modifications have been applied by looking at the original GitHub repository on the web navigator, on the `main` branch, and clicking on `students.txt`, thus at https://github.com/sylvaincom/github_tutorial/blob/main/students.txt.
 
 ### 💡 Some notes
 
-- When on your branch and working on your PR, from GitHub Desktop, it might be useful to click on the top menu on `Branch` then `Update from main`. For the web navigator, from your GitHub PR, you will then see `Merge branch 'main' into <student_branch>`.
+- On GitHub Desktop, when you are on your branch and working on your PR, it might be useful to click on the top menu on `Branch` then `Update from main` (that is not the same as `Fetch origin`). Then, click on `Push origin`. On the web navigator, from your GitHub PR, you will then see commit comment `Merge branch 'main' into <student_branch>`.
 
 ## 🚀 Doing an advanced PR with GitHub Actions (by using GitHub Desktop)
 
