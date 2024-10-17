@@ -53,7 +53,9 @@
 
 ### 💡 Some notes
 
-- On GitHub Desktop, when you are on your branch and working on your PR, it might be useful to click on the top menu on `Branch` then `Update from main` (that is not the same as `Fetch origin`). Then, click on `Push origin`. On the web navigator, from your GitHub PR, you will then see commit comment `Merge branch 'main' into <student_branch>`.
+- On the web navigator, on the page corresponding to your GitHub PR, you might see: `This branch is out-of-date with the base branch. Merge the latest changes from main into this branch.`. This means that while you were doing some changes in your branch, some changes from other users have been merged to the main branch, so you must retrieve these changes from the main branch and apply them to your branch.
+  - On GitHub Desktop, when you are on your branch, click on the top menu on `Branch` then `Update from main` (that is not the same as `Fetch origin`). Then, click on `Push origin`.
+  - On the web navigator, on your GitHub PR, you will then see the following commit comment: `Merge branch 'main' into <student_branch>`.
 
 ## 🚀 Doing an advanced PR with GitHub Actions (by using GitHub Desktop)
 
