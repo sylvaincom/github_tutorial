@@ -11,5 +11,5 @@ Michel; DM.
 Mikael; EP.
 Paul; B. -> done
 Pierre-Antoine; N. -> done
-Said; G.
+Said; G. -> done
 Vincent; M.
