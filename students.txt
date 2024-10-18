@@ -2,7 +2,7 @@ First name; Last name (initial)
 
 Antoine; D. -> Done
 Bérangère; E.
-Fayàl; B.
+Fayçal; B. -> done
 Jean-Charles; M. -> done
 Joseph-Alexandre; A.
 Laurent; P. -> done
