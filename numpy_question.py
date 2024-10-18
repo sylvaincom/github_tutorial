@@ -33,9 +33,19 @@ def max_index(X):
         If the input is not a numpy array or
         if the shape is not 2D.
     """
-    i = 0
-    j = 0
 
-    # TODO
+    if not(isinstance(X, np.ndarray)): 
+        raise ValueError("The parameter is not a NumPy array.")
+    
+    class DimensionMismatchError(ValueError) :
+        def __init__(self, expected_shape, actual_shape):
+            self.expected_shape = expected_shape
+            self.actual_shape = actual_shape
+            super().__init__(f"Expected numpy array dimension {expected_shape}, but got {actual_shape}.")
+
+    if X.ndim != 2:
+        raise DimensionMismatchError(2, X.ndim)
+
+    i, j = np.unravel_index(np.argmax(X), X.shape)
 
     return i, j
