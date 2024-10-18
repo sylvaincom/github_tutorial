@@ -1,6 +1,6 @@
 First name; Last name (initial)
 
-Antoine; D.
+Antoine; D. -> Done
 Bérangère; E.
 Fayàl; B.
 Jean-Charles; M.
