@@ -9,7 +9,7 @@ Laurent; P.
 Mathilde; B.
 Michel; DM.
 Mikael; EP.
-Paul; B.
+Paul; B. -> done
 Pierre-Antoine; N. -> done
 Said; G.
 Vincent; M.
