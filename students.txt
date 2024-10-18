@@ -3,13 +3,13 @@ First name; Last name (initial)
 Antoine; D. -> Done
 Bérangère; E.
 Fayàl; B.
-Jean-Charles; M.
+Jean-Charles; M. -> done
 Joseph-Alexandre; A.
-Laurent; P.
+Laurent; P. -> done
 Mathilde; B.
 Michel; DM.
-Mikael; EP.
+Mikael; EP. -> done
 Paul; B. -> done
 Pierre-Antoine; N. -> done
-Said; G.
+Said; G. -> done
 Vincent; M. -> done
