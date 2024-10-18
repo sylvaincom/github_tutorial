@@ -12,4 +12,4 @@ Mikael; EP. -> done
 Paul; B. -> done
 Pierre-Antoine; N. -> done
 Said; G. -> done
-Vincent; M.
+Vincent; M. -> done
