@@ -10,9 +10,7 @@ complete the assignment. The code should be able to pass the test that we
 wrote. To run the tests, use `pytest test_numpy_question.py` at the root of
 the repo. It should say that 1 test ran with success.
 """
-
 import numpy as np
-
 
 def max_index(X):
     """Return the index of the maximum in a numpy array.
@@ -21,6 +19,7 @@ def max_index(X):
     ----------
     X : ndarray of shape (n_samples, n_features)
         The input array.
+    
 
     Returns
     -------
@@ -37,5 +36,10 @@ def max_index(X):
     j = 0
 
     # TODO
-
+    if not(isinstance(X,np.ndarray)):
+        raise ValueError ("le parametre n'est pas un array")
+    
+    np.unravel_index(np.argmax(X), X.shape)
+    
     return i, j
+
