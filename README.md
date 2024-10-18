@@ -13,6 +13,7 @@
   - Do the following: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account). 💡 Basically, this allows you to authenticate with your GitHub account when pushing your code.
     - 🚨 With SSH, you have a private key and a public key. *Never* share your private key. Do not push any keys on a GitHub repository.
 - Download [GitHub Desktop](https://desktop.github.com/download/) and sign in (with your GitHub account).
+  - 💡 VS Code also has nice features for dealing with GitHub, but Sylvain personally prefers GitHub Desktop because from the GtiHub web navigator it has a better integration than VS Code. Example: open the code using GitHub Desktop. Then, from GitHub Desktop, you can open the repo in VS Code very easily.
 
 ## 👨‍💻 Doing a basic pull request (PR) by using GitHub Desktop
 
