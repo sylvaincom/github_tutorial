@@ -9,10 +9,10 @@ are the inputs, the outputs and the expected error. Fill the function to
 complete the assignment. The code should be able to pass the test that we
 wrote. To run the tests, use `pytest test_numpy_question.py` at the root of
 the repo. It should say that 1 test ran with success.
-"""
+"""    
+
 
 import numpy as np
-
 
 def max_index(X):
     """Return the index of the maximum in a numpy array.
@@ -25,7 +25,7 @@ def max_index(X):
     Returns
     -------
     (i, j) : tuple(int)
-        The row and columnd index of the maximum.
+        The row and column index of the maximum.
 
     Raises
     ------
@@ -33,9 +33,15 @@ def max_index(X):
         If the input is not a numpy array or
         if the shape is not 2D.
     """
-    i = 0
-    j = 0
+    # Vérifiez que l'entrée est un tableau numpy
+    if not isinstance(X, np.ndarray):
+        raise ValueError("FALSE")
 
-    # TODO
+    # Vérifiez que le tableau est de dimension 2
+    if X.ndim != 2:
+        raise ValueError("FALSE")
+
+    # Trouvez l'index de la valeur maximale
+    i, j = np.unravel_index(np.argmax(X), X.shape)
 
     return i, j
