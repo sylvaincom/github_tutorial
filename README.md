@@ -7,8 +7,11 @@
 - Download [Visual Studio Code](https://code.visualstudio.com/download).
 - Set up your GitHub account.
   - Create a [GitHub](https://github.com/login) account.
-    - Recommendation: use a personal email and not the one from your company.
+    - 🚨 Strong recommendation: use a personal email to create your GitHub account and not the one from your company.
+      - 💡 Your company will add your GitHub handle to their organization. The day you leave that company, you will be excluded from that organization but still keep your other private GitHub repositories on your account.
+    - 💡 Choose your GitHub handle wisely, try to keep it professional.
   - Do the following: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account). 💡 Basically, this allows you to authenticate with your GitHub account when pushing your code.
+    - 🚨 With SSH, you have a private key and a public key. *Never* share your private key. Do not push any keys on a GitHub repository.
 - Download [GitHub Desktop](https://desktop.github.com/download/) and sign in (with your GitHub account).
 
 ## 👨‍💻 Doing a basic pull request (PR) by using GitHub Desktop
