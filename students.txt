@@ -2,14 +2,14 @@ First name; Last name (initial)
 
 Antoine; D. -> Done
 Bérangère; E.
-Fayàl; B.
-Jean-Charles; M.
+Fayçal; B. -> done
+Jean-Charles; M. -> done
 Joseph-Alexandre; A.
-Laurent; P.
+Laurent; P. -> done
 Mathilde; B.
 Michel; DM.
-Mikael; EP.
+Mikael; EP. -> done
 Paul; B. -> done
 Pierre-Antoine; N. -> done
-Said; G.
-Vincent; M.
+Said; G. -> done
+Vincent; M. -> done
