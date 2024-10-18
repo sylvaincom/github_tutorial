@@ -1,6 +1,6 @@
 First name; Last name (initial)
 
-Antoine; D.
+Antoine; D. -> Done
 Bérangère; E.
 Fayàl; B.
 Jean-Charles; M.
@@ -9,7 +9,7 @@ Laurent; P.
 Mathilde; B.
 Michel; DM.
 Mikael; EP.
-Paul; B.
+Paul; B. -> done
 Pierre-Antoine; N. -> done
 Said; G.
 Vincent; M.
