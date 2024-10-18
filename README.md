@@ -7,6 +7,7 @@
 - Download [Visual Studio Code](https://code.visualstudio.com/download).
 - Set up your GitHub account.
   - Create a [GitHub](https://github.com/login) account.
+    - Recommendation: use a personal email and not the one from your company.
   - Do the following: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account). 💡 Basically, this allows you to authenticate with your GitHub account when pushing your code.
 - Download [GitHub Desktop](https://desktop.github.com/download/) and sign in (with your GitHub account).
 
