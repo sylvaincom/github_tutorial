@@ -69,7 +69,7 @@
   - Open in VS Code.
   - Publish this branch (but do *not* create a pull request yet).
 - On VS Code:
-  - Open `numpy_question.py`.
+  - Open `numpy_question.py` (a file that should be contained in the GitHub repository).
   - Read the instructions at the beginning of `numpy_question.py`.
   - Modify `numpy_question.py` according to the instructions.
   - ⚠️ Do *not* modify `test_numpy_question.py`. 💡 More generally, do *not* modify Python files that start with `test_`: as their name suggests, they perform the tests (checks) on your submitted code.
