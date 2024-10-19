@@ -48,7 +48,7 @@
   - Now, the owner of the GitHub repository (here, your teacher with the `sylvaincom` GitHub handle) will have to approve your pull request.
     - 💡 For information, if your PR looks good, the way a collaborator of the repository (owner, maintainer, etc) would do it is by clicking on your PR on the web navigator then clicking on `Merge pull request` then `Confirm merge`. This collaborator undergoes a [PR review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) to approve (or not) your changes.
     - Do not hesitate to let your teacher know that you created a PR so that he can manually merge it.
-  - Once your pull request has been merged: you will see `Pull request succesfully merged and close`. Click on `Delete branch`. Indeed, you no longer need this branch.
+  - Once your pull request has been merged: you will see `Pull request succesfully merged and closed`. Click on `Delete branch`. Indeed, you no longer need this branch.
     - 💡 You should not be able to delete a branch if this branch is currently opened.
       - Close the repository from VS Code.
       - On GitHub Desktop, switch to the `main` branch.
