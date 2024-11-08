@@ -11,7 +11,8 @@
       - 💡 Your company will add your GitHub handle to their GitHub organization. The day you leave that company, you will be excluded from that organization, but you will keep your other personal GitHub repositories on your account.
     - 💡 Choose your GitHub handle wisely, try to keep it professional.
   - Do the following: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account). 💡 Basically, this allows you to authenticate with your GitHub account when pushing your code (without entering your password each time).
-    - 🚨 With SSH, you have a private key and a public key. *Never* share your private key. Do not push any keys on a GitHub repository.
+    - 🚨 With SSH, you have a private key and a public key (`.pub` extension). *Never* share your private key. Do not push any keys on a (public or private) GitHub repository.
+    - 💡 Your laptop has a public and private key pair and the corresponding public key is shared with your GitHub login: see `Settings`, `SSH and GPG Keys`, `SSH keys`, `Authentication keys`. If you have several laptops, each one of them needs its own SSH keys, and your GitHub account will have several authentification keys.
 - Download [GitHub Desktop](https://desktop.github.com/download/) and sign in (with your GitHub account).
   - 💡 VS Code also has nice features for dealing with GitHub, but Sylvain personally prefers GitHub Desktop because from the GtiHub web navigator it has a better integration than VS Code. Example: `Code` then `Open with GitHub Desktop`. Then, from GitHub Desktop, you can open the repository in VS Code very easily (just a right click) to edit the code.
 
