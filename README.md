@@ -1,4 +1,4 @@
-# A basic introduction to GitHub and GitHub actions by using GitHub Desktop
+# A gentle introduction to GitHub and GitHub actions by using GitHub Desktop
 
 > 🙏 Forked from https://github.com/mathurinm/github-assignment, a project started by Mathurin Massias, Thomas Moreau, and Alexandre Gramfort.
 
