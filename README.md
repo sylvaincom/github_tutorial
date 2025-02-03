@@ -17,7 +17,7 @@
       - 💡 You must add the public key to `GitHub.com` (online): go to `Settings`, `SSH and GPG Keys`, `SSH keys`, then the `Authentication keys` section.
     - 💡 If you have several local machines (e.g. laptops), each one of them must have a SSH key pair with the public key on `GitHub.com`. Often, each laptop has its own SSH key pairs, and your GitHub account will thus have several authentification keys.
 - Download [GitHub Desktop](https://desktop.github.com/download/) and sign in (with your GitHub account).
-  - 💡 VS Code also has nice features for dealing with GitHub, but @sylvaincom personally prefers GitHub Desktop because from the GtiHub web navigator it has a better integration than VS Code. Example: from a GitHub repository, you can click on `Code` then `Open with GitHub Desktop`. Then, from GitHub Desktop, you can open the repository in VS Code very easily (just a right click) to edit the code.
+  - 💡 VS Code also has nice features for dealing with GitHub, but @sylvaincom personally prefers GitHub Desktop because from the GitHub web navigator it has a better integration than VS Code. Example: from a GitHub repository, you can click on `Code` then `Open with GitHub Desktop`. Then, from GitHub Desktop, you can open the repository in VS Code very easily (just a right click) to edit the code.
 
 ## 👨‍💻 Doing a basic pull request (PR) by using GitHub Desktop
 
