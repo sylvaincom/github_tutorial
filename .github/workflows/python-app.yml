@@ -10,7 +10,6 @@ on:
     types: [opened, synchronize, ready_for_review]
     branches:
       - main # Change if your default branch is different
-    draft: true # Runs only if the PR is a draft
 
 jobs:
   test:
