@@ -43,7 +43,7 @@ def max_index(X):
         raise ValueError("Input must be a 2D numpy array.")
     
   
-    max_index_flat = np.argmax(X)  
+    max_index_flat = np.argmax(X)  # max
     i, j = divmod(max_index_flat, X.shape[1])  
     
     return i, j
