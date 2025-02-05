@@ -36,6 +36,14 @@ def max_index(X):
     i = 0
     j = 0
 
-    i,j = np.argmax(X, axis=0), np.argmax(X, axis=1)
-
+    # Validate input
+    if not isinstance(X, np.ndarray):
+        raise ValueError("Input must be a numpy array.")
+    if X.ndim != 2:
+        raise ValueError("Input must be a 2D numpy array.")
+    
+    # Find the index of the maximum value
+    max_index_flat = np.argmax(X)  # Index in the flattened array
+    i, j = divmod(max_index_flat, X.shape[1])  # Convert to 2D index
+    
     return i, j
