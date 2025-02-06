@@ -36,7 +36,7 @@ def max_index(X):
     i = 0
     j = 0
 
-    # Validate input
+    # Validate inputs
     if not isinstance(X, np.ndarray):
         raise ValueError("Input must be a numpy array.")
     if X.ndim != 2:
@@ -46,4 +46,4 @@ def max_index(X):
     max_index_flat = np.argmax(X)  # max
     i, j = divmod(max_index_flat, X.shape[1])  
     
-    return i, j
+    return i, j 
