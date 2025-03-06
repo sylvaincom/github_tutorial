@@ -105,7 +105,7 @@
 
 By using GitHub Desktop, you did not see all the `git` commands that you would have to be run from your shell.
 
-Basically, imagine that there is a specific `git` command for all the clicks you do on GitHub Desktop. Hence, it is quite difficult to teach them in a short lecture. Moreover, as a first lecture on GitHub, you might be confused with th bash commands and loose sight of the global philosophy of how `git` / GitHub works.
+Basically, imagine that there is a specific `git` command for all the clicks you do on GitHub Desktop. Hence, it is quite difficult to teach them in a short lecture. Moreover, as a first lecture on GitHub, you might be confused with the bash commands and loose sight of the global philosophy of how `git` / GitHub works.
 
 Yet, it is strongly recommended to learn `git` from the command line on your own. Here are some resources:
 - [Mathurin Massias' lecture notes](https://github.com/mathurinm/github-assignment?tab=readme-ov-file#general-information). Also see [Mathurin Massias' lab](https://github.com/mathurinm/github-assignment?tab=readme-ov-file#i-the-assignment) which is the equivalent of this lab you did using GitHub Desktop but with `git` commands. Notice how more complicated it looks...
