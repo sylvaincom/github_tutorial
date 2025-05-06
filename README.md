@@ -8,10 +8,10 @@
 - Set up your GitHub account.
   - Create a [GitHub](https://github.com/login) account.
     - 💡 Recommendation: use a personal email to create your GitHub account and not the one from your company / school (as you might not have access to it for life). Or consider one account for personal stuff and another account for professional use.
-      - 💡 Your company will add your GitHub handle to their GitHub organization. The day you leave that company, you will be excluded from that organization, but you will keep your other personal GitHub repositories on your account.
+      - 💡 If you have only one account with your personal email, your company will add your GitHub handle to their GitHub organization. The day you leave that company, you will be excluded from that organization, but you will keep your other personal GitHub repositories on your account.
     - 💡 Choose your GitHub handle wisely, try to keep it professional.
   - Do the following: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
-    - 💡 In short, setting up SSH (Secure Shell Protocol) allows you to authenticate to your GitHub account when pushing your code (without entering your password each time: makes you save time and it is more secure). It is a cryptographic network protocol.
+    - 💡 In short, setting up SSH (Secure Shell Protocol) allows you to authenticate to your GitHub account when pushing your code (without entering your password each time: this makes you save time and it is more secure). It is a cryptographic network protocol.
     - In the SSH key pair, you have a private key and a public key (`.pub` extension) on your local machine (e.g. laptop).
       - 🚨 *Never* share your private key. Do not push any keys (public or private) on a (public or private) GitHub repository.
       - 💡 You must add the public key to `GitHub.com` (online): go to `Settings`, `SSH and GPG Keys`, `SSH keys`, then the `Authentication keys` section.
@@ -30,6 +30,7 @@
   - Once on GitHub Desktop, click on `Clone` (modify the path if needed). This will clone the GitHub repository which corresponds to your fork (on `GitHub.com` online, also called the `remote`) on your local machine.
   - When asked _How are you planning to use this fork?_, select _To contribute to the parent project_.
 - Create a branch named `<student_branch>` (for example name it `john_d` if your name is "John Doe") and switch to this branch (it should be done for you by default, check `Current branch`).
+  - Avoid making any changes directly on the `main` branch (even of your fork).
 - Click on `Publish branch`.
   - 💡 Your `<student_branch>` branch, which was created on your local machine, will be published on `GitHub.com` online.
   - 💡 More globally, a `push` amounts to publishing the changes from your local machine to `GitHub.com` online. The reverse, retrieving the changes on `GitHub.com` online to your local machine, is called a `fetch` or a `pull`.
@@ -55,9 +56,10 @@
 - On the automatically opened web navigator:
   - Click on `Create pull request`.
     - 💡 Instead of `Create pull request`, you could click on `Create draft pull request` (or create a PR then convert it to draft). Once you have finished working on your draft PR, you can click on `Ready for review` to notify the human reviewers that they can start taking the time to actually review your the changes suggested by your PR (a draft PR is still visible, the human reviewers can start having a quick look if they want to).
+    - 💡 Do forget to customize your PR title and include a description if needed. More generally, if your PR solves a GitHub issue, let's say issue #1234, your PR title should be the name of the issue and the description should be _Fix #1234_ and additional comments if needed.
     - 💡 You can see what changes you made in the `Files changed` tab.
     - 💡 For more information, see [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
-  - Now, the owner of the GitHub repository (here, your teacher with the `sylvaincom` GitHub handle) will have to approve your pull request.
+  - Now, a maintainer of the GitHub repository (here, your teacher with the `sylvaincom` GitHub handle) will have to approve your pull request.
     - 💡 For information, if your PR looks good, the way a collaborator of the repository (owner, maintainer, etc) would do it is by clicking on your PR on the web navigator then clicking on `Merge pull request` then `Confirm merge`. This collaborator undergoes a [PR review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) to approve (or not) your changes.
     - Do not hesitate to let your teacher know that you created a PR so that he can manually merge it.
   - Once your pull request has been merged, you will see `Pull request succesfully merged and closed`. Click on `Delete branch`. Indeed, you no longer need this branch that has already served its purpose.
