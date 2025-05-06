@@ -7,7 +7,7 @@
 - Download [Visual Studio Code](https://code.visualstudio.com/download).
 - Set up your GitHub account.
   - Create a [GitHub](https://github.com/login) account.
-    - 🚨 Strong recommendation: use a personal email to create your GitHub account and not the one from your company / school (if you will not have access to it for life).
+    - 💡 Recommendation: use a personal email to create your GitHub account and not the one from your company / school (as you might not have access to it for life). Or consider one account for personal stuff and another account for professional use.
       - 💡 Your company will add your GitHub handle to their GitHub organization. The day you leave that company, you will be excluded from that organization, but you will keep your other personal GitHub repositories on your account.
     - 💡 Choose your GitHub handle wisely, try to keep it professional.
   - Do the following: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
